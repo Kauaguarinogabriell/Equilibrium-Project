@@ -12,19 +12,82 @@
   <style>
     .attribution { font-size: 11px; text-align: center; }
     .attribution a { color: hsl(228, 45%, 44%); }
+    
+    body{
+      background-color: hsl(217, 54%, 11%);
+      color: aliceblue;
+    }
+    .container{
+      display: flex;
+      padding-top: 25px;
+      font-family: 'Outfit', sans-serif;
+    }
+    .box{
+      padding-top: 25px;
+      background-color:hsl(216, 50%, 16%);
+      margin: 0 auto;
+      text-align: center;
+      max-width: 330px;
+      border-radius: 2%;
+    }
+    .picture{
+      max-width: 290px;
+      border-radius: 2%;
+    }
+
+    .h1text{
+      font-size: 125%;
+      font-weight: 600;
+      text-align: left;
+      margin-left: 25px;
+    }
+    .h2text{
+      font-size: 18px;
+      text-align: left;
+      font-weight: 300;
+      margin-left: 25px;
+    }
+
+    .ethereumimg{
+      float: left ;
+      margin-left: 25px;
+
+    }
+    .h5text{
+      font-size: 15px;
+      padding-bottom: 5px;
+      padding-right: 82px;
+      float: right;
+      margin-top: 12px;
+    }
+    .avatarimg{
+      max-width: 29px;
+      float: left;
+      margin-left: 25px;
+      margin-top: 5px;
+
+
+    }
   </style>
 </head>
 <body>
-
-  Equilibrium #3429
-
-  Our Equilibrium collection promotes balance and calm.
-
-  0.041 ETH
-  3 days left
-  
-  Creation of Jules Wyvern
-
+  <main class="container">
+    <div class="box"> 
+      <picture>
+        <img class="picture" src="image-equilibrium.jpg" alt="Equilibrium">
+      </picture>
+      <h1 class="h1text">Equilibrium #3429</h1>
+      <h2 class="h2text">Our Equilibrium collection promotes balance and calm.</h2>
+      <h3 class="h4text">3 days left</h3>
+      <picture class="ethereumphoto">
+        <img class="ethereumimg" src="icon-ethereum.svg"><h4 class="h3text">0.041 ETH</h4>
+      </picture><!--ethereumphoto-->
+      <hr width="290px" color="gray">
+      <picture class="avatarphoto">
+        <img class="avatarimg" src="image-avatar.png"><h5 class="h5text"><span style="color:hsl(215, 51%, 70%);">Creation of </span>Jules Wyvern</h5>
+      </picture><!--avatarphoto-->
+    </div><!--box-->
+  </main><!--container-->
   <div class="attribution">
     Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
     Coded by <a href="#">Your Name Here</a>.
