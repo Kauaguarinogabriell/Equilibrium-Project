@@ -42,16 +42,32 @@
       margin-left: 25px;
     }
     .h2text{
-      font-size: 18px;
+      font-size: 17px;
       text-align: left;
       font-weight: 300;
       margin-left: 25px;
+      color: hsl(215, 51%, 70%);
+      padding-bottom: 3px;
     }
-
+    .h3text{
+      float:right;
+      font-size: 15px;
+      margin-right: -100px;
+      margin-top: -0px;
+      color: hsl(215, 51%, 70%);
+    }
+    .clockimg{
+      float: right;
+      margin-right: 100px;
+    }
+    .h4text{
+      margin-right: 200px;
+      padding-top: 2px;
+      color: hsl(178, 100%, 50%);
+    }
     .ethereumimg{
       float: left ;
       margin-left: 25px;
-
     }
     .h5text{
       font-size: 15px;
@@ -65,8 +81,10 @@
       float: left;
       margin-left: 25px;
       margin-top: 5px;
-
-
+      border-style:ridge;
+      border-color: aliceblue;
+      border-radius: 50%;
+      border-width: 1px;
     }
   </style>
 </head>
@@ -78,12 +96,14 @@
       </picture>
       <h1 class="h1text">Equilibrium #3429</h1>
       <h2 class="h2text">Our Equilibrium collection promotes balance and calm.</h2>
-      <h3 class="h4text">3 days left</h3>
-      <picture class="ethereumphoto">
-        <img class="ethereumimg" src="icon-ethereum.svg"><h4 class="h3text">0.041 ETH</h4>
-      </picture><!--ethereumphoto-->
+      <picture>
+        <img class="clockimg" src="icon-clock.svg"><h3 class="h3text">3 days left</h3>
+      </picture>
+      <picture>
+        <img class="ethereumimg" src="icon-ethereum.svg"><h4 class="h4text">0.041 ETH</h4>
+      </picture>
       <hr width="290px" color="gray">
-      <picture class="avatarphoto">
+      <picture>
         <img class="avatarimg" src="image-avatar.png"><h5 class="h5text"><span style="color:hsl(215, 51%, 70%);">Creation of </span>Jules Wyvern</h5>
       </picture><!--avatarphoto-->
     </div><!--box-->
